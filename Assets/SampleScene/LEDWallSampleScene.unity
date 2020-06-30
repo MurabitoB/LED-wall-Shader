@@ -322,6 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69f3e416ca4c904e98abf82769af1b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
   ledWall: {fileID: 2018899684}
 --- !u!4 &330663896
 Transform:
@@ -876,12 +877,12 @@ PrefabInstance:
     - target: {fileID: 5748573234966769154, guid: e91a08eef945b7d40b747f0a350f32e1,
         type: 3}
       propertyPath: width
-      value: 320
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 5748573234966769154, guid: e91a08eef945b7d40b747f0a350f32e1,
         type: 3}
       propertyPath: height
-      value: 180
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 5748573234966769154, guid: e91a08eef945b7d40b747f0a350f32e1,
         type: 3}
@@ -957,7 +958,7 @@ PrefabInstance:
         type: 3}
       propertyPath: maskTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 76b33513eb3783147a65fff291e7830a, type: 3}
+      objectReference: {fileID: 2800000, guid: 23fbf5051d9329640ac0f5010a443b06, type: 3}
     - target: {fileID: 5748573234966769181, guid: e91a08eef945b7d40b747f0a350f32e1,
         type: 3}
       propertyPath: m_Name

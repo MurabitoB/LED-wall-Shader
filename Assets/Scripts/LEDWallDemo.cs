@@ -5,13 +5,14 @@ using UnityEngine;
 public class LEDWallDemo : MonoBehaviour
 {
     private float deltaTime = 0;
+    public float speed = 1;
     public LEDWall ledWall;
 
     // Update is called once per frame
     void Update()
     {
         deltaTime += Time.deltaTime;
-        switch(Mathf.Floor(deltaTime % 7))
+        switch(Mathf.Floor(deltaTime * speed % 7))
         {
             case 1 :
             ledWall.useSingleColor = false;

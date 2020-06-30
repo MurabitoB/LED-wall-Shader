@@ -1,4 +1,4 @@
-﻿Shader "MurabitoB/LiveTVWall"
+﻿Shader "MurabitoB/LED_Wall"
 {
     Properties
     {
